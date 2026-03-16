@@ -300,14 +300,15 @@ ul {
 .gruzik {
     float: right;
 }
-.knopk2 {
-    display: none;
-}
 .knopk1 {
     position: relative;
     left: 100px;
     top: 100px;
 }
+.knopk2 {
+    display: none;
+}
+
 .svyaz {
     height: 750px;
     background-color: #f2f6ff;
@@ -470,9 +471,7 @@ ul {
         margin-top: -120px;
         margin-bottom: 100px;
     }
-    .knopk1 {
-        display: none;
-    }
+    
     .iskluch {
         position: relative;
         top: 40px;
