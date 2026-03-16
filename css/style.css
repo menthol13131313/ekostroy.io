@@ -406,7 +406,7 @@ ul {
 }
 .svyaz {
     height: 1000px;
-    background-image: url(/images/background.jpg);
+    background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-position:right;
     img {
@@ -453,7 +453,7 @@ ul {
         display: flex;
     }
     .kirp {
-        background-image: url(/images/aaakir.jpg);
+        background-image: url(images/aaakir.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
     }
