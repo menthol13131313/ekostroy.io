@@ -519,7 +519,7 @@ ul {
 }
 @media screen and (max-width: 1250px) {
     .parag {
-        background-image: url(/images/aaakir.jpg);
+        background-image: url(images/aaakir.jpg);
         background-repeat: no-repeat;
         margin-top: -50px;
         .paddi {
