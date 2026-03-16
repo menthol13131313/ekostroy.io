@@ -409,9 +409,7 @@ ul {
     background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-position:right;
-    img {
-        display: none;
-    }
+    
     .nomer {
         h1 {
             font-size: 50px;
