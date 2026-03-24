@@ -170,11 +170,8 @@ ul {
         th {
             img {
                     width: 150px;
+                    float: left;
                 }
-            .top {
-                float: left;
-
-            }
             .xsxs {
                 text-align: left;
                 font-size: 30px;
@@ -187,6 +184,11 @@ ul {
     }
     margin: 0 auto;
     border-collapse: collapse;
+    .marki {
+        font-size: 45px;
+        margin-top: px;
+        margin-bottom: -20px;
+    }
 }
 .blackborder {
     border: 3px solid black;
@@ -222,6 +224,9 @@ ul {
             background-color: #f2f6ff;
         }
     }
+}
+.bumax {
+    margin-bottom: -50px;
 }
 .reshenia {
     float: left;
@@ -300,17 +305,16 @@ ul {
 .gruzik {
     float: right;
 }
+.knopk2 {
+    display: none;
+}
 .knopk1 {
     position: relative;
     left: 100px;
     top: 100px;
 }
-.knopk2 {
-    display: none;
-}
-
 .svyaz {
-    height: 750px;
+    height: 900px;
     background-color: #f2f6ff;
     h1 {
         font-size: 80px;
@@ -355,9 +359,21 @@ ul {
         display: inline;
         padding: 50px;
     }
+    
 }
 
 @media screen and (max-width: 2290px) {
+    .production {
+        .xsxs {
+            img {
+                width: 300px;
+            float: right;
+            }
+            p {
+                font-size: 45px;
+            }
+        }
+    }
     .laptop {
         .logotip {
             width: 100px;
@@ -373,7 +389,7 @@ ul {
             font-size: 40px;
         }
         height: 150px;
-        img {
+        .butt {
             width: 100px;
         }
         box-shadow: 5px 2px 20px;
@@ -407,7 +423,7 @@ ul {
 }
 .svyaz {
     height: 1000px;
-    background-image: url('../images/background.jpg');
+    background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-position:right;
     img {
@@ -440,7 +456,6 @@ ul {
     }
     .marsh {
         position: relative;
-        top: 170px;
     }
 }
     .desktop {
@@ -453,7 +468,10 @@ ul {
     .knopk2 {
         display: flex;
     }
-    
+    .kirp {
+        background-image: url(../images/aaakir.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
     .paddi {
         margin-top: 60px;
@@ -471,7 +489,9 @@ ul {
         margin-top: -120px;
         margin-bottom: 100px;
     }
-    
+    .knopk1 {
+        display: none;
+    }
     .iskluch {
         position: relative;
         top: 40px;
@@ -515,7 +535,7 @@ ul {
 }
 @media screen and (max-width: 1250px) {
     .parag {
-        background-image: url('../images/aaakir.jpg');
+        background-image: url(../images/aaakir.jpg);
         background-repeat: no-repeat;
         margin-top: -50px;
         .paddi {
@@ -564,5 +584,9 @@ ul {
     }
     .production {
         width: 100px;
+        img {
+            width: 400px;
+            float: right;
+        }
     }
 }
