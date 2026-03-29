@@ -317,6 +317,7 @@ ul {
 }
 .dostavka {
     margin-top: 1600px;
+    margin-bottom: 1700px;
     h1 {
         text-align: center;
         font-size: 65px;
@@ -629,7 +630,7 @@ ul {
         width: 100px;
         img {
             width: 400px;
-            float: right;
+            display: none;
         }
     }
 }
